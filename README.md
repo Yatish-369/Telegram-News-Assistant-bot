@@ -1,72 +1,46 @@
-## 🚀 Built a Real-Time News Bot for Telegram Using Python!
+# 📰 Telegram News Bot 🤖
 
-Hey LinkedIn fam! 👋  
-I’m excited to share a recent project I built — a **Telegram News Bot** that fetches **real-time news updates** tailored to your interests, right inside Telegram. 🗞️🤖
+A Python-powered Telegram bot that fetches and delivers **real-time news updates** directly into your Telegram chat. Stay informed with the latest headlines across various categories—on demand!
 
----
 
-### 🔧 What It Does
-
-This Telegram bot:
-- 💬 Responds to user commands like `/start`, `/news`, `/subscribe`
-- 📡 Fetches **real-time headlines** using public news APIs (e.g., [NewsAPI](https://newsapi.org/), CNBC, CBS, etc.)
-- 📲 Sends formatted articles instantly into the chat with title, summary, image, and source
-- 🧠 Allows users to personalize categories like Sports, Politics, Tech, and more
+<img width="596" alt="Screenshot 2025-05-01 223600" src="https://github.com/user-attachments/assets/f09e3156-0c62-44a2-a7da-a20cf7b85aee" />
+<img width="446" alt="Screenshot 2025-05-01 223650" src="https://github.com/user-attachments/assets/40503c21-810d-406b-89f7-2589d18556d4" />
 
 ---
 
-### 🛠️ Tech Stack
+## 🚀 Features
 
-- **Language**: Python 🐍  
-- **Frameworks**: `python-telegram-bot` for Telegram integration  
-- **News Source Integration**: `requests`, BeautifulSoup (for web scraping where needed), or NewsAPI  
-- **Scheduling**: `APScheduler` for regular updates (optional feature)  
-- **Deployment**: Runs on cloud or local machine using a simple Python runtime
+- 🔄 Real-time news updates from trusted sources (e.g., CBS Sports, CNBC)
+- 💬 Simple command interface (`/start`, `/news`, `/subscribe`, `/help`)
+- 🧠 Personalized news categories (sports, politics, tech, etc.)
+- 🖼️ Rich media: Headlines with images, summaries, and source links
+- 🧾 Instant previews using Telegram's native features
+
 
 ---
 
-### 📷 Sneak Peek
+## 🛠️ Built With
 
-Here’s how it looks in action:
-
-<img width="596" alt="Screenshot 2025-05-01 223600" src="https://github.com/user-attachments/assets/ee24b248-8ecb-4cf9-b536-74a066080942" />
-<img width="446" alt="Screenshot 2025-05-01 223650" src="https://github.com/user-attachments/assets/709dbed9-c76d-4438-bdbc-212352ed947e" />
-
-
-> Fetching latest NBA trade rumors 🏀 or world politics 🌍 — all inside Telegram!
+- **Language**: Python 3.9+
+- **News Fetching**: `requests`, `BeautifulSoup` *(for scraping)* or third-party news APIs like [NewsAPI](https://newsapi.org/)
+- **Deployment**: [Replit](https://replit.com/) and Local Python
+- **Data Parsing**: JSON, HTML parsing
+- **Optional**: `APScheduler` for scheduled updates
 
 ---
 
-### 💡 Why This Project?
+## 📦 Installation
 
-In an age of information overload, getting **relevant, real-time, and clean news** in your messaging app saves time and boosts productivity. This project was also a great way to:
-- Practice API integration in Python
-- Learn Telegram bot development
-- Work with real-time data flows
-- Apply clean UX within messaging apps
+### ✅ Option 1: Run on Replit
 
----
+1. **Fork the Replit project** or upload your code.
+2. **Add secrets**:
+   - Go to the padlock icon 🔒 in Replit
+   - Add these environment variables:
+     ```
+     TELEGRAM_BOT_TOKEN = your_telegram_bot_token
+     NEWS_API_KEY = your_newsapi_key
+     ```
+3. **Click Run ▶️** to start the bot.
 
-### ✅ Features
-
-- ✅ Real-time news fetch and delivery
-- ✅ User command handling (`/start`, `/news`, `/help`)
-- ✅ Customizable news categories
-- ✅ Automatic link previews and source crediting
-- ✅ Simple and user-friendly interaction flow
-
----
-
-### 📈 What’s Next?
-
-- Adding sentiment analysis for news headlines using NLP
-- Deploying on a cloud server (e.g., Heroku, AWS EC2)
-- Adding push notification system for urgent news alerts
-
----
-
-If you're curious about building your own bot or want to explore Python + automation projects, I’d love to connect! Let’s build cool stuff together. 💻🔥
-
-📬 DM me if you want access to the code or a walkthrough!
-
-#Python #TelegramBot #NewsBot #Automation #APIs #TechProjects #LearningByBuilding #RealTimeData #StudentDeveloper #Telegram #NewsAPI
+✅ Replit stays online if you use **uptimer services** (e.g., UptimeRobot) to keep it active.
